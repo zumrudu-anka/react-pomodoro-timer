@@ -2,6 +2,13 @@
   "name": "react-pomodoro-timer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zumrudu-anka.github.io/react-pomodoro-timer",
+  "author": {
+    "name": "zumrudu-anka",
+    "email": "osmandurdag@hotmail.com",
+    "url": "https://zumrudu-anka.github.io"
+  },
+  "description": "Pomodoro Timer with React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -15,6 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

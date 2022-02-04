@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container">
+      <div class="outerRing">
+        <div class="timer">
+          <div id="time">
+            <span id="minutes">00</span>
+            <span id="colon">:</span>
+            <span id="seconds">25</span>
+          </div>
+          <div id="stsp">START</div>
+          <span id="setting"><i class="fas fa-cog"></i></span>
+        </div>
+      </div>
     </div>
   );
 }
