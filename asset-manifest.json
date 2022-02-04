@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-pomodoro-timer/static/css/main.861327a4.css",
-    "main.js": "/react-pomodoro-timer/static/js/main.0dac3c13.js",
+    "main.css": "/react-pomodoro-timer/static/css/main.233dbe72.css",
+    "main.js": "/react-pomodoro-timer/static/js/main.8e6683c7.js",
     "static/media/fa-solid-900.svg": "/react-pomodoro-timer/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/react-pomodoro-timer/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/fa-solid-900.eot": "/react-pomodoro-timer/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
@@ -18,11 +18,11 @@
     "static/media/fa-regular-400.woff": "/react-pomodoro-timer/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/react-pomodoro-timer/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/react-pomodoro-timer/index.html",
-    "main.861327a4.css.map": "/react-pomodoro-timer/static/css/main.861327a4.css.map",
-    "main.0dac3c13.js.map": "/react-pomodoro-timer/static/js/main.0dac3c13.js.map"
+    "main.233dbe72.css.map": "/react-pomodoro-timer/static/css/main.233dbe72.css.map",
+    "main.8e6683c7.js.map": "/react-pomodoro-timer/static/js/main.8e6683c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.861327a4.css",
-    "static/js/main.0dac3c13.js"
+    "static/css/main.233dbe72.css",
+    "static/js/main.8e6683c7.js"
   ]
 }
