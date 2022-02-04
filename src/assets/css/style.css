@@ -84,12 +84,27 @@ body {
   cursor: pointer;
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.25rem;
   text-align: center;
   letter-spacing: 0.6em;
   margin: 1rem 0;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#stsp.start{
+  color: var(--green-ring);
+  text-shadow: 0 0 5px var(--green-ring),
+               0 0 15px var(--green-ring),
+               0 0 25px var(--green-ring),
+               0 0 50px var(--green-ring);
+}
+
+#stsp.stop{
+  color: var(--red-ring);
+  text-shadow: 0 0 5px var(--red-ring),
+               0 0 15px var(--red-ring),
+               0 0 25px var(--red-ring);
 }
 
 #setting {
@@ -99,8 +114,4 @@ body {
   height: 25px;
   color: #585858;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-}
-
-#time .settingOpt{
-  all: unset;
 }

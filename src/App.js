@@ -161,7 +161,7 @@ function App() {
             <span id="colon">:</span>
             <span id="seconds" ref = {secondsRef} onBlur = {setTime}>25</span>
           </div>
-          <div id="stsp" onClick = {startStopHandler}>{startStopText}</div>
+          <div id="stsp" onClick = {startStopHandler} className = {startStopText === "START" ? "start" : "stop"}>{startStopText}</div>
           <span id="setting" onClick = {() => setIsSettingsActive(!isSettingsActive)}><i className="fas fa-cog"></i></span>
         </div>
       </div>
