@@ -5,5 +5,5 @@
 
 <div align=center>
 
-![pomodoroTimer](./pomodoro-timer.png)
+[![pomodoroTimer](./pomodoro-timer.png)](https://zumrudu-anka.github.io/react-pomodoro-timer/)
 </div>
